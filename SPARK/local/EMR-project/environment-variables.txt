@@ -1,0 +1,7 @@
+export ENVIRON=PROD
+export SRC_DIR=s3://emr-data-github/prod/landing/ghactivity/
+export SRC_FILE_PATTERN=2015-01-13
+export SRC_FILE_FORMAT=json
+export TGT_DIR=s3://emr-data-github/prod/raw/ghactivity/
+export TGT_FILE_FORMAT=parquet
+
